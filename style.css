@@ -1,13 +1,32 @@
 /* global configs */
 body {
     margin: 0px;
-    background-color: #ffffff;
+    background-color: #2E2E2E;
     font-family: 'Roboto Mono', monospace;
+    color: #ffffff;
 }
 
 #wrapper {
     padding: 5px;
     margin: 80px 25px 25px 25px;
+}
+
+#dot {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #53AB00;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #252525;
 }
 
 /* nav bar */
@@ -21,6 +40,8 @@ header ul {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 20;
+
 }
 
 header li {
@@ -37,7 +58,7 @@ header a {
 }
 
 header a:hover {
-    background-color:#e8ae00;
+    background-color:#53AB00;
 }
 
 /* body style */
@@ -49,12 +70,11 @@ header a:hover {
     width: auto;
     text-align: center;
     position: relative;
-    background-color: #e8ae00;
+    background-color: #53AB00;
     margin-bottom: 50px;
 }
 
 #title_text{
-    color: #252525;
     position: absolute;
     top: 30%;
     bottom: 10%;
@@ -62,28 +82,28 @@ header a:hover {
     left: 23%;
 }
 
-#title_text a {
-    color: #252525;
-    text-decoration: underline;
-}
-
-#title_text a:hover {
-    color: #ffffff;
-}
-
 #profile_picture {
     float: left;
     display: block;
 }
 
-#wrapper ul {
-    list-style-type: none;
+    /* content */
+
+.content_box {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #53AB00;
     text-align: center;
+    padding: 15px;
+    line-height: 26px;
 }
 
-#wrapper li {
-    margin-bottom: 5px;
+.content_box h3 {
+    font-size: 1.2em;
 }
 
-    /* about me */
+.content_box ul {
+    list-style-type: none;
+    margin-left: -40px;
+}
 
