@@ -1,0 +1,89 @@
+/* global configs */
+body {
+    margin: 0px;
+    background-color: #ffffff;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#wrapper {
+    padding: 5px;
+    margin: 80px 25px 25px 25px;
+}
+
+/* nav bar */
+
+header ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: #252525;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+header li {
+    display: inline;
+    float: left;
+}
+
+header a {
+    display: block;
+    padding: 18px 16px;
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+}
+
+header a:hover {
+    background-color:#e8ae00;
+}
+
+/* body style */
+
+    /* title */
+
+#title_box {
+    height: 350px;
+    width: auto;
+    text-align: center;
+    position: relative;
+    background-color: #e8ae00;
+    margin-bottom: 50px;
+}
+
+#title_text{
+    color: #252525;
+    position: absolute;
+    top: 30%;
+    bottom: 10%;
+    right: auto;
+    left: 23%;
+}
+
+#title_text a {
+    color: #252525;
+    text-decoration: underline;
+}
+
+#title_text a:hover {
+    color: #ffffff;
+}
+
+#profile_picture {
+    float: left;
+    display: block;
+}
+
+#wrapper ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+#wrapper li {
+    margin-bottom: 5px;
+}
+
+    /* about me */
+
